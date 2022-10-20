@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-bottom: 2px solid #111;
+  width: 100vw;
+  height: 100px;
+  padding: 0.5em;
+  background-color: rgb(225, 210, 255);
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #f0e8e8;
+}
+
+figure {
+  height: 80px;
+  line-height: 100px;
+  display: inline-flex;
+}
+main {
+  margin: 3em;
+  border: 2px solid #111;
+  border-radius: 10px;
+}
+.cabecalho {
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #111;
+}
+.cabecalho div {
+  padding-left: 30px;
+}
+.cabecalho p {
+  padding-top: 10px;
+}
+.sobre-mim {
+  padding: 100px;
+  padding-top: 50px;
+}
+.sobre-mim h2 {
+  padding-top: 40px;
+}
+#creditos {
+  padding-left: 60px;
+  color: rgb(255, 17, 0);
+}
